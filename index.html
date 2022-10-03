@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+   
+    <!--THIS IS THE FIRST STEP IN MAKING THE DOCUMENT RESPONSIVE BUT SCALING THE ITEMS TO SCREEN-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--CODE QUIZ-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <!--THIS IS THE STYLE LINK-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--THIS IS THE TITLE-->
+    <title>Code Quiz</title>
+</head>
+
+<body>
+
+    <!--LINK TO HIGHSCORES-->
+    <a href="HighScores.html">View Highscores</a>
+   
+    <!--THIS IS A WRAPPER-->
+    <div id="wrapper">
+   
+        <!--DIV FOR TIMER-->
+        <div id="currentTime"></div>
+   
+        <!--DIV FOR QUIZ CONTENT-->
+        <div id="questionsDiv">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <ul id="choicesUl"></ul>
+   
+            <!--BUTTONS-->
+            <button id="startTime">Start Quiz</button>
+
+        </div>
+
+    </div>
+
+<!--THIS IS THE JAVASCRIPT LINK-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
